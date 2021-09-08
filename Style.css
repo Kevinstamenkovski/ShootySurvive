@@ -1,0 +1,381 @@
+/**/
+#startbg {
+    background-color: black;
+}
+/*START BUTTON*/
+.start {
+    margin-left: 200px;
+    box-shadow: 3px 3px black;
+    margin-top: 300px;
+    opacity: 80%;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.start:hover {
+    margin-left: 202px;
+    box-shadow: 1px 1px black;
+    margin-top: 302px;
+    cursor: pointer;
+    opacity: 100%;
+    background-color: white;
+    transition: 0.4s;
+}
+.start-text {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    opacity: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.start-text:hover {
+    text-decoration: none;
+    color: black;
+}
+/*SETTINGS BUTTON*/
+.Settings {
+    margin-left: 200px;
+    box-shadow: 3px 3px black;
+    margin-top: 375px;
+    opacity: 80%;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.Settings:hover {
+    margin-left: 202px;
+    box-shadow: 1px 1px black;
+    margin-top: 377px;
+    cursor: pointer;
+    opacity: 100%;
+    background-color: white;
+    transition: 0.4s;
+}
+.settings-text {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    opacity: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.settings-text:hover {
+    text-decoration: none;
+    color: black;
+}
+/*GAME START BACKGROUND*/
+.GameScreen-start {
+    margin-left: 30%;
+    background-color: lightgray;
+    width: 600px;
+    height: 700px;
+    margin-top: 10px;
+}
+
+/*LATERAL LINE*/
+.line {
+    position: absolute;
+    background-color: yellow;
+    width: 20px;
+    height: 100%;
+    margin-top: -10px;
+}
+.line1 {
+    margin-left: 3%;
+}
+.line2 {
+    margin-left: 95%;
+}
+
+/*NAME INPUT*/
+
+#NameOne {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: red;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+#NameOne::before {
+    color: black;
+    content: "WELCOME ";
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+}
+#InputNameOne {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 150px;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
+#namebtn {
+    position: absolute;
+    margin-left: 290px;
+    border-radius: 5px;
+    margin-top: 150px;
+    width: 100px;
+    height: 35px;
+}
+/*SKIN SELECTOR PAGE*/
+.skin-title {
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-size: 50px;
+    text-align: center;
+}
+/*This is the male skin*/
+.male-skin {
+    position: absolute;
+}
+.male-head {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-top: 8px solid lightskyblue;
+    border-right: 8px solid lightskyblue;
+    border-left: 8px solid lightskyblue;
+    border-bottom: 8px solid lightskyblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.male-left-hand {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: lightskyblue;
+    margin-top: 85px;
+    margin-left: 100px;
+}
+.male-right-hand {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: lightskyblue;
+    margin-top: 85px;
+    margin-left: 135px;
+}
+.male-right-leg {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: lightskyblue;
+    margin-top: 190px;
+    margin-left: 132px;    
+}
+.male-left-leg {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: lightskyblue;
+    margin-top: 190px;
+    margin-left: 103px;
+}
+.male-body {
+    width: 10px;
+    height: 125px;
+    background-color: lightskyblue;
+    margin-top: 80px;
+    margin-left: 117px;
+}
+
+
+/*CARD FOR MALE SKIN*/
+#male-skin-box {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 150px;
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    border-top: 2px solid lightseagreen;
+    border-left: 2px solid lightseagreen;
+    border-right: 2px solid lightseagreen;
+    border-bottom: 2px solid lightseagreen;
+}
+/*This is the female skin */
+.female-skin {
+    position: absolute;
+}
+.female-head {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-top: 8px solid rgb(250, 135, 198);
+    border-right: 8px solid rgb(250, 135, 198);
+    border-left: 8px solid rgb(250, 135, 198);
+    border-bottom: 8px solid rgb(250, 135, 198);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.female-left-hand {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(250, 135, 198);
+    margin-top: 85px;
+    margin-left: 100px;
+}
+.female-right-hand {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(250, 135, 198);
+    margin-top: 85px;
+    margin-left: 135px;
+}
+.female-right-leg {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(250, 135, 198);
+    margin-top: 190px;
+    margin-left: 132px;    
+}
+.female-left-leg {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(250, 135, 198);
+    margin-top: 190px;
+    margin-left: 103px;
+}
+.female-body {
+    width: 10px;
+    height: 125px;
+    background-color: rgb(250, 135, 198);
+    margin-top: 80px;
+    margin-left: 117px;
+}
+
+
+/*CARD FOR fEMALE SKIN*/
+#female-skin-box {
+    position: absolute;
+    
+    margin-right: 15%;
+    margin-top: 150px;
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    border-top: 2px solid rgb(144, 32, 178);
+    border-left: 2px solid rgb(144, 32, 178);
+    border-right: 2px solid rgb(144, 32, 178);
+    border-bottom: 2px solid rgb(144, 32, 178);
+}
+#maleSkinselect {
+    margin-top: 315px;
+    width: 150px;
+    height: 40px;
+    background-color: #84E9FF;
+    border-radius: 5px;
+}
+#femaleSkinSelect {
+    margin-top: 315px;
+    width: 150px;
+    height: 40px;
+    background-color: #FF7CDA;
+    border-radius: 5px;
+}
+/*This is the black skin */
+.black-skin {
+    position: absolute;
+}
+.black-head {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-top: 8px solid rgb(51, 51, 51);
+    border-right: 8px solid rgb(51, 51, 51);
+    border-left: 8px solid rgb(51, 51, 51);
+    border-bottom: 8px solid rgb(51, 51, 51);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.black-left-hand {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 85px;
+    margin-left: 100px;
+}
+.black-right-hand {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 85px;
+    margin-left: 135px;
+}
+.black-right-leg {
+    transform: rotateZ(-200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 190px;
+    margin-left: 132px;    
+}
+.black-left-leg {
+    transform: rotateZ(200deg);
+    width: 10px;
+    height: 80px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 190px;
+    margin-left: 103px;
+}
+.black-body {
+    width: 10px;
+    height: 125px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 80px;
+    margin-left: 117px;
+}
+
+
+/*CARD FOR fEMALE SKIN*/
+#black-skin-box {
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 150px;
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    border-top: 2px solid rgb(36, 36, 36);
+    border-left: 2px solid rgb(36, 36, 36);
+    border-right: 2px solid rgb(36, 36, 36);
+    border-bottom: 2px solid rgb(36, 36, 36);
+}
+#blackSkinSelect {
+    margin-top: 315px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+/*GAME LINK BTN DESIGN*/
+.Startlink-btn {
+    margin-top: 550px;
+    width: 150px;
+    background-color: black;
+    font-size: 25px;
+    border-radius: 10%;
+}
+.Startlink-btn a {
+    color: white;
+    cursor: default;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+

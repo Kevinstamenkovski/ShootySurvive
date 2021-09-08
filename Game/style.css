@@ -1,0 +1,22 @@
+.health-bar {
+    text-align: center;
+    font-size: 30px;
+    width: 13%;
+    height: 5%;
+    background-color: mediumspringgreen;
+    position: absolute;
+    border-radius: 10px;
+}
+.health-bar::after {
+    content: "%";
+}
+.player-hb {
+    color: black;
+    margin-left: 10%;
+    margin-top:  50px;
+}
+.enemy-hb {
+    color: black;
+    margin-top: 50px;
+    margin-left: 77%;
+}

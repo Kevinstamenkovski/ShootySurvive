@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Select your Skin</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+    <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.js"></script>
+    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+</head>
+<body id="skinbg">
+    <p class="skin-title">SELECT THE SKIN</p>
+    <!--Male Skin-->
+    
+    
+    <div id="male-skin-box">
+        <div class="male-skin male-head"></div>
+        <div class="male-skin male-left-hand"></div>
+        <div class="male-skin male-right-hand"></div>
+        <div class="male-skin male-body"></div>
+        <div class="male-skin male-right-leg"></div>
+        <div class="male-skin male-left-leg"></div>
+        <center><button onclick="maleSkinSelected()" class="selectbtn" id="maleSkinselect">SELECT</button></center>
+    </div>
+    <!--FEMAlE SKIN-->
+    <div id="female-skin-box">
+        <div class="female-skin female-head"></div>
+        <div class="female-skin female-left-hand"></div>
+        <div class="female-skin female-right-hand"></div>
+        <div class="female-skin female-body"></div>
+        <div class="female-skin female-right-leg"></div>
+        <div class="female-skin female-left-leg"></div>
+        <center><button onclick="femaleSkinSelected()" id="femaleSkinSelect">SELECT</button></center>
+    </div>
+    <!--NOT SEXIST SKIN-->
+    <div id="black-skin-box">
+        <div class="black-skin black-head"></div>
+        <div class="black-skin black-left-hand"></div>
+        <div class="black-skin black-right-hand"></div>
+        <div class="black-skin black-body"></div>
+        <div class="black-skin black-right-leg"></div>
+        <div class="black-skin black-left-leg"></div>
+        <center><button onclick="blackSkinSelected()" id="blackSkinSelect">SELECT</button></center>
+    </div>
+    
+    <center><button class="Startlink-btn"><a href="Game/index.html">Start</a></button></center>
+</body>
+<script src="Script.Js"></script>
+</html>
